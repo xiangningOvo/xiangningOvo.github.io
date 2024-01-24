@@ -2,21 +2,49 @@
 layout: homepage
 ---
 
-## About Me
+## 关于我
 
-I am a D.Eng. student in Vision Group, Lab of Machine Learning and Data Mining, Tianjin University, advised by Prof. Pengfei Zhu.  Prior to attending TJU, I obtained my B.Sc. degree from Hangzhou Dianzi University, advised by Prof, Jun Yu in June 2020.
+- 毕业于21年6月，从事Java后端开发，业务主要方向为招聘Saas系统开发
 
-## Research Interests
+## 个人特长
 
-- **Image Fusion:** RGB-Infrared, Medical Image(CT-MRI, PET-MRI) image fusion
-- **Image-to-Image Translation:** Sketch-Photo transfer
-- **Medical Image Processing:** Disease diagnosis, OAR prediction, Oragns segmentation.
+- **技术栈:** Java、Spring、Spring boot、MySql、Redis、MongoDB、
+- 熟悉JDK各种集合、队列、锁、多线程相关底层结构及原理，了解常见设计模式
+- 熟悉常用数据结构与算法
+- 能够独立完成中小系统的设计与实现
+- 保持阅读优秀源码的习惯，学习其中的设计原理
   
-## News
+## 工作经历
 
-- **[Feb. 2024]** Coming later
+#### 2021.6-至今 北京五八信息技术有限公司 Java开发工程师
+
+- 负责ATS企业招聘系统的开发，维护和升级迭代
+- 负责灵活用工C端模块开发，升级维护
+- 负责双选招聘系统的开发升级和维护
+
+## 项目经历
+#### 2021.6-至今 ATS招聘管理系统
+
+- **项目介绍：** 该项目是面向企业开发的招聘管理系统，主要包括职位管理模块、面试模块、考试模块、简历管理模块、数据统计模块、用户管理模块等。B端用户在后台创建职位并发布招聘信息
 
 
-{% include_relative _includes/publications.md %}
+- **个人责任** 我入职来主要负责了职位管理、数据统计、用户管理、简历管理等模块的功能迭代和优化。
 
-{% include_relative _includes/services.md %}
+#### 2022.5-2022.7 新华英才网
+
+- **项目介绍：** 该项目是和新华网合作的面向C端求职者的，一个职位检索、简历投递的平台。主要包括了用户管理、职位检索、企业检索、企业注册等模块
+
+- **个人责任** 这些模块我负责用户管理、企业注册、企业检索等的开发
+#### 2022.5-2022.7 灵活用工
+
+- **项目介绍：** 该项目是面向企业的可供企业进行排班、发薪，员工打卡的一个系统。其中C端主要包括打卡模块、申诉模块、认证模块、注册模块
+
+- **个人责任** C端小程序所有功能由我负责开发，打卡逻辑合理性判断、认证流程、申诉逻辑等的处理
+#### 2022.3-2022.5 线上双选系统
+
+- **项目介绍：** 该项目是面向B端，求职者和企业可以双向进行选择的在线双选系统，主要包括简历模块、意向管理模块、数据看板模块
+
+- **个人责任** 系统全部由我进行设计开发，其中要点为意向选择时锁的使用以及数据看班信息的聚合计算
+## 教育经历
+#### 2018.9-2021.6 华中师范大学（211） 计算机科学与技术 硕士研究生
+#### 2014.9-2018.6 华北电力大学（211）网络工程 本科
