@@ -11,10 +11,10 @@ layout: homepage
 
 ## 技术栈与优势
 
-- **技术栈:** Java、Spring、Spring Boot、MySQL、Redis、MongoDB、RocketMQ、Dubbo、Python、Agent、RAG
+- **技术栈:** Java、Spring、Spring Boot、MySQL、Redis、MongoDB、RocketMQ、Dubbo、ES、Python、Agent、RAG
 - **后端能力:** 4年Java后端开发经验，具备高并发、高可用系统设计与开发能力；熟悉JVM、多线程与并发编程（线程池、CAS、AQS），能够定位并解决线上性能问题。
 - **AI工程能力:** 熟悉LLM应用开发，具备Agent、RAG系统设计与落地经验； 熟练使用Cursor、Claude Code等AI辅助开发工具提升研发效率，并将AI能力应用于实际业务场景。
-- **数据库:** 熟悉MySQL底层原理，掌握索引设计、执行计划分析、慢SQL优化； 具备分库分表、读写分离及大数据量场景优化经验。
+- **数据库:** 熟悉MySQL底层原理，掌握索引设计、执行计划分析、慢SQL优化； 具备分库分表、读写分离及大数据量场景优化经验
 - **缓存与中间件:** 熟练使用Redis进行缓存设计、分布式锁、延迟队列等场景开发； 掌握缓存穿透、缓存击穿、缓存雪崩等问题的解决方案。
 - **系统设计:** 能够独立完成中小型业务系统架构设计，具备高并发场景下缓存、异步化、削峰填谷等优化经验。
 - **技术成长:** 保持源码阅读习惯，阅读并研究过Spring、MyBatis、JDK等核心框架源码，理解其设计思想与实现机制。
