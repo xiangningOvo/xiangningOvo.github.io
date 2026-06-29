@@ -1,0 +1,76 @@
+/* custom.css — 用于覆盖主题样式，确保头像和关于我在同一行 */
+.wrapper {
+  display: flex;
+  align-items: flex-start;
+  gap: 1.2rem;
+  width: 960px; /* 保持页面宽度不变 */
+  margin: 0 auto;
+}
+
+/* 将 header 从固定/浮动侧边栏改为正常流中的侧栏（flex 列） */
+header {
+  width: 232px;
+  float: none !important;
+  position: static !important;
+  -webkit-font-smoothing: subpixel-antialiased;
+  padding-top: 1.8rem;
+  text-align: left;
+  flex: 0 0 232px;
+}
+
+/* 主体变为可伸缩区域 */
+section {
+  width: auto;
+  float: none !important;
+  flex: 1 1 auto;
+  padding-top: 1.8rem;
+  padding-bottom: 50px;
+}
+
+/* 头像与文本同行显示并调整大小 */
+header .image.avatar {
+  margin: 0;
+  width: auto;
+  display: inline-block;
+}
+
+header .image.avatar img {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  padding: 0;
+  border-radius: 50%;
+  display: block;
+}
+
+/* 清理 header 内元素默认 margin，使行内对齐更紧凑 */
+header h1,
+header position,
+header autocolor,
+header email {
+  margin: 0;
+}
+
+header h1 {
+  font-size: 1.6rem;
+  margin-bottom: .2rem;
+}
+
+header .social-icons {
+  margin-top: .5rem;
+}
+
+/* 如果主题在别处继续强制 fixed/float，用更高优先级覆盖 */
+body .wrapper > header,
+body .wrapper > section {
+  /* 仅在需要时启用 !important 覆盖极端规则 */
+}
+
+/* 响应式：小屏或打印时恢复堆叠布局（和主题行为一致） */
+@media print, screen and (max-width: 960px) {
+  .wrapper { display: block; width: auto; margin: 0; }
+  header, section, footer { float: none !important; position: static !important; width: auto; }
+  header { padding-right: 0; text-align: center; }
+  section { padding-top: 0; }
+  header .image.avatar img { width: 95px; height: 95px; }
+}
